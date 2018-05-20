@@ -4,7 +4,7 @@ html, body {
 }
 
 body {
-  background-color: #fcedcf;
+  background-color: #c8e2fb;
 }
 
 .container {
@@ -61,8 +61,8 @@ h1 {
   font-size: 72px;
   font-family: 'Lato', sans-serif;
   font-weight: 100;
-  font-style: normal;
-  font-variant: thin;
+  /* font-style: normal; */
+  /* font-variant: thin; */
   margin-top: 20px;
   margin-bottom: 40px;
 }
@@ -107,7 +107,7 @@ hr {
 /* Jumbotron */
 .jumbotron {
   background-color: transparent;
-  background-image: url("/images/farm.jpg");
+  background-image: url("/images/toronto.jpg");
   background-size: auto 100%;
   background-position: center;
   min-height: 100%;
@@ -138,6 +138,11 @@ h1.huge {
   margin-bottom: 10px;
   font-size: 72px;
   font-weight: 300;
+  font-variant: none;
+  color: #1c8ef8;
+  /*-webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  /*-webkit-text-stroke-width: 1px;*/
+  /*-webkit-text-stroke-color: #1c8ef8; */
 }
 
 h2.huge {
@@ -145,18 +150,17 @@ h2.huge {
   font-size: 36px;
   text-align: center;
   font-weight: 300;
+  color: #1c8ef8;
 }
 
 @media screen and (min-width: 574px) {
   h1.huge {
     margin-top: 20px;
     font-size: 96px;
-    font-weight: 100;
   }
 
   h2.huge {
     font-size: 48px;
-    font-weight: 100;
   }
 }
 
